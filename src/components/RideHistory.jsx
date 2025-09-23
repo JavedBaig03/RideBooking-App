@@ -41,9 +41,9 @@ function RideHistory() {
             <tbody>
               {rides.map((ride) => (
                 <tr key={ride.rideId}>
-                  <td>{ride.startLocation}</td>
-                  <td>{ride.endLocation}</td>
-                  <td>{new Date(ride.rideDate).toLocaleString()}</td>
+                  <td data-label="🚕 Pickup">{ride.startLocation}</td>
+                  <td data-label="🎯 Drop">{ride.endLocation}</td>
+                  <td data-label="📅 Date">{new Date(ride.rideDate).toLocaleString()}</td>
                 </tr>
               ))}
             </tbody>

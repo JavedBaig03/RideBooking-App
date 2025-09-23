@@ -9,6 +9,7 @@
   padding: 20px;
   box-sizing: border-box; /* Prevent horizontal scroll */
   background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin-top: 64px; /* Height of navbar */
 }
 
 /* Tracking Box - Content Container */

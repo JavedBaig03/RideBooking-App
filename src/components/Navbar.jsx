@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-left">
-        <h2 className="nav-title">🚖 AGRides</h2>
+  <h2 className="nav-title">🚖 RideOn</h2>
       </div>
 
       <div className={`nav-links ${isMobileMenuOpen ? "open" : ""}`}>

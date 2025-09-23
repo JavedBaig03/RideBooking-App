@@ -10,6 +10,7 @@
   /* Optional: Use an image instead */
   /* background: url('/assets/payment-bg.jpg') no-repeat center center/cover; */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 64px; /* Height of navbar */
 }
 
 /* Main Card Box */
